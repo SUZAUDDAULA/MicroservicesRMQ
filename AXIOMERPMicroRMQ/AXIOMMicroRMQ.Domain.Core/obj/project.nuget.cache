@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Tk4db3ChMRIFNb+huzsXdp0ybKKYHHVKB/KLUFu5kdlXE8cxmrkm5vifVd5HJJnIQACrvGjs6R8OM2M79tCCzw==",
+  "dgSpecHash": "aYv32NSDgfMA3kSiABi2qyuLv4yS3GGaVFH+H9Nxogo5/OwUhRFSk40syQy442I2qziKSX2juQCMA4mp7Jj+8g==",
   "success": true,
   "projectFilePath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMMicroRMQ.Domain.Core\\AXIOMMicroRMQ.Domain.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Suza\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
