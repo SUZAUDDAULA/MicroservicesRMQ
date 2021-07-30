@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AXIOMMicroRMQ.Domain.Core.Commands;
+using AXIOMMicroRMQ.Domain.Core.Events;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
