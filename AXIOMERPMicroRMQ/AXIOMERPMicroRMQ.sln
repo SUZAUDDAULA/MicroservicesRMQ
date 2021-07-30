@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AXIOMMicroRMQ.Domain.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AXIOMMicroRMQ.Infra.Bus", "AXIOMMicroRMQ.Infra.Bus\AXIOMMicroRMQ.Infra.Bus.csproj", "{DB9AABA7-0DE5-4952-8A7D-4AE21D978E59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AXIOMRMQ.Infra.IoC", "AXIOMRMQ.Infra.IoC\AXIOMRMQ.Infra.IoC.csproj", "{AA249F96-8F9D-4BD1-891D-35421BE52214}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{DB9AABA7-0DE5-4952-8A7D-4AE21D978E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9AABA7-0DE5-4952-8A7D-4AE21D978E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9AABA7-0DE5-4952-8A7D-4AE21D978E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA249F96-8F9D-4BD1-891D-35421BE52214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA249F96-8F9D-4BD1-891D-35421BE52214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA249F96-8F9D-4BD1-891D-35421BE52214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA249F96-8F9D-4BD1-891D-35421BE52214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3F4CEEC3-85ED-430C-830E-E54D6FD37451} = {90E49D94-F232-4727-98A3-4E93CE9794A0}
 		{DB9AABA7-0DE5-4952-8A7D-4AE21D978E59} = {FD163BB7-77BC-441E-B7F3-C43BA0D54698}
+		{AA249F96-8F9D-4BD1-891D-35421BE52214} = {DB854510-3B3C-4C7A-BC39-F4E8FBB3ECA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {068C201D-C639-4481-B7A7-5869579F9344}

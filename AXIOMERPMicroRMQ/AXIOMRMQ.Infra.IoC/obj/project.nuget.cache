@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "P7g1FWiZ9mnSQFPegytcXGqxw8StLYPGLghQbKcKQYoHCPOm/6fbuDfVTguysHm0ublsigcqFyGIk4v3r+0VMw==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Infra.IoC\\AXIOMRMQ.Infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suza\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\Suza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
