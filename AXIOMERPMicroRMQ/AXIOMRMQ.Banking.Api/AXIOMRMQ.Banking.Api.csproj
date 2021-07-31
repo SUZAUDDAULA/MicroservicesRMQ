@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AXIOMRMQ.Infra.IoC\AXIOMRMQ.Infra.IoC.csproj" />
+  </ItemGroup>
+
 
 </Project>

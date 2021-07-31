@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AXIOMRMQ.Banking.Domain\AXIOMRMQ.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -11,6 +11,8 @@
   <ItemGroup>
     <ProjectReference Include="..\AXIOMMicroRMQ.Domain.Core\AXIOMMicroRMQ.Domain.Core.csproj" />
     <ProjectReference Include="..\AXIOMMicroRMQ.Infra.Bus\AXIOMMicroRMQ.Infra.Bus.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Banking.Application\AXIOMRMQ.Banking.Application.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Banking.Data\AXIOMRMQ.Banking.Data.csproj" />
   </ItemGroup>
 
 </Project>
