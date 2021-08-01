@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace AXIOMRMQ.Banking.Api
 {
@@ -40,7 +41,10 @@ namespace AXIOMRMQ.Banking.Api
             //    options.UseSqlServer(
             //        Configuration.GetConnectionString("BankingDbConnection")));
 
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddSwaggerGen(c =>
+            {
+                //c.SwaggerDoc("v1",new OpenApiInfo)
+            });
 
             RegisterServices(services);
         }
