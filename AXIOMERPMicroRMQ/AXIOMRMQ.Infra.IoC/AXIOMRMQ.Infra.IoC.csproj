@@ -13,6 +13,7 @@
     <ProjectReference Include="..\AXIOMMicroRMQ.Infra.Bus\AXIOMMicroRMQ.Infra.Bus.csproj" />
     <ProjectReference Include="..\AXIOMRMQ.Banking.Application\AXIOMRMQ.Banking.Application.csproj" />
     <ProjectReference Include="..\AXIOMRMQ.Banking.Data\AXIOMRMQ.Banking.Data.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Banking.Domain\AXIOMRMQ.Banking.Domain.csproj" />
   </ItemGroup>
 
 </Project>

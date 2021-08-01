@@ -381,6 +381,9 @@
               },
               "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Data\\AXIOMRMQ.Banking.Data.csproj": {
                 "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Data\\AXIOMRMQ.Banking.Data.csproj"
+              },
+              "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj": {
+                "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj"
               }
             }
           }

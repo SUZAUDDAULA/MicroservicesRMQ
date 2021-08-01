@@ -1,11 +1,11 @@
-D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.dll
-D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.csprojAssemblyReference.cache
-D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.AssemblyInfoInputs.cache
-D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.AssemblyInfo.cs
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.deps.json
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.dll
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.pdb
+D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.dll
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\bin\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.pdb
+D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.csprojAssemblyReference.cache
+D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.AssemblyInfoInputs.cache
+D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.AssemblyInfo.cs
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.csproj.CoreCompileInputs.cache
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.csproj.CopyComplete
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Infra.Bus\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Infra.Bus.dll

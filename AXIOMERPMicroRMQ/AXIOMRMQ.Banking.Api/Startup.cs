@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 
 namespace AXIOMRMQ.Banking.Api
 {
@@ -28,11 +29,18 @@ namespace AXIOMRMQ.Banking.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BankingDbContext>(options=> 
+            services.AddControllers();
+            services.AddMediatR(typeof(Startup));
+            services.AddDbContext<BankingDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("BankingDbConnection"));
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            //services.AddDbContext<BankingDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("BankingDbConnection")));
+
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             RegisterServices(services);
         }

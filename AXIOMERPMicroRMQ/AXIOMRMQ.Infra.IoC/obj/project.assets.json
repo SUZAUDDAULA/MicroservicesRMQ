@@ -5187,6 +5187,7 @@
       "AXIOMMicroRMQ.Infra.Bus >= 1.0.0",
       "AXIOMRMQ.Banking.Application >= 1.0.0",
       "AXIOMRMQ.Banking.Data >= 1.0.0",
+      "AXIOMRMQ.Banking.Domain >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
   },
@@ -5232,6 +5233,9 @@
             },
             "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Data\\AXIOMRMQ.Banking.Data.csproj": {
               "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Data\\AXIOMRMQ.Banking.Data.csproj"
+            },
+            "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj": {
+              "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj"
             }
           }
         }
