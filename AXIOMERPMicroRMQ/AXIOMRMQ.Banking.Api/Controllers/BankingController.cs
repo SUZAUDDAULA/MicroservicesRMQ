@@ -28,6 +28,7 @@ namespace AXIOMRMQ.Banking.Api.Controllers
         [HttpPost]
         public IActionResult AccountTransfer([FromBody] AccountTransfer accountTransfer)
         {
+            _accountService.Transfer(accountTransfer);
             return Ok(accountTransfer);
         }
 

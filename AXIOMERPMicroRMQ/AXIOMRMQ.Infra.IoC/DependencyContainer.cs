@@ -4,7 +4,10 @@ using AXIOMRMQ.Banking.Application.Interfaces;
 using AXIOMRMQ.Banking.Application.Services;
 using AXIOMRMQ.Banking.Data.Context;
 using AXIOMRMQ.Banking.Data.Repository;
+using AXIOMRMQ.Banking.Domain.CommandHandlers;
+using AXIOMRMQ.Banking.Domain.Commands;
 using AXIOMRMQ.Banking.Domain.Interfaces;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -18,6 +21,9 @@ namespace AXIOMRMQ.Infra.IoC
         {
             //Domain Bus
             services.AddTransient<IEventBus, AXIOMRMQBus>();
+
+            //Domain Banking Command
+            services.AddTransient<IRequestHandler<CreateTransferCommand,bool>, TransferCommandHandler>();
 
             //Application Services
             services.AddTransient<IAccountService, AccountService>();
