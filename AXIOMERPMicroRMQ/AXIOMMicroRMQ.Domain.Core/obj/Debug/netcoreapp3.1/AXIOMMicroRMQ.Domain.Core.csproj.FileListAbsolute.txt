@@ -6,3 +6,4 @@ D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOM
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Domain.Core\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.csproj.CoreCompileInputs.cache
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Domain.Core\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.dll
 D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Domain.Core\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.pdb
+D:\Development\WebPractice\Microservices\MicroservicesRMQ\AXIOMERPMicroRMQ\AXIOMMicroRMQ.Domain.Core\obj\Debug\netcoreapp3.1\AXIOMMicroRMQ.Domain.Core.csprojAssemblyReference.cache
