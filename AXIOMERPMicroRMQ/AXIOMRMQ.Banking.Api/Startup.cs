@@ -15,6 +15,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
 
 namespace AXIOMRMQ.Banking.Api
 {
@@ -43,9 +44,15 @@ namespace AXIOMRMQ.Banking.Api
 
             services.AddSwaggerGen(c =>
             {
-                //c.SwaggerDoc("v1",new OpenApiInfo)
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title="Banking Microservice",
+                    Description="All Banking Microservice",
+                    Version="V1"
+                });
             });
 
+            services.AddMediatR(typeof(Startup));
             RegisterServices(services);
         }
 
@@ -61,6 +68,11 @@ namespace AXIOMRMQ.Banking.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
@@ -71,6 +83,12 @@ namespace AXIOMRMQ.Banking.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options=> 
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Banking Microservice V1");
             });
         }
     }
