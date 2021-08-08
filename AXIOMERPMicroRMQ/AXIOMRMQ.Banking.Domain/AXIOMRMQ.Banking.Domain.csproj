@@ -7,8 +7,10 @@
   <ItemGroup>
     <Folder Include="Events\" />
     <Folder Include="EventHandlers\" />
-    <Folder Include="Commands\" />
-    <Folder Include="CommandHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AXIOMMicroRMQ.Domain.Core\AXIOMMicroRMQ.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -312,7 +312,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMMicroRMQ.Domain.Core\\AXIOMMicroRMQ.Domain.Core.csproj": {
+                "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMMicroRMQ.Domain.Core\\AXIOMMicroRMQ.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

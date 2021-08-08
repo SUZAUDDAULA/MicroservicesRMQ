@@ -1,4 +1,5 @@
 ﻿using AXIOMRMQ.Banking.Application.Interfaces;
+using AXIOMRMQ.Banking.Application.Models;
 using AXIOMRMQ.Banking.Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,5 +24,12 @@ namespace AXIOMRMQ.Banking.Api.Controllers
         {
             return Ok(_accountService.GetAccounts());
         }
+
+        [HttpPost]
+        public IActionResult AccountTransfer([FromBody] AccountTransfer accountTransfer)
+        {
+            return Ok(accountTransfer);
+        }
+
     }
 }
