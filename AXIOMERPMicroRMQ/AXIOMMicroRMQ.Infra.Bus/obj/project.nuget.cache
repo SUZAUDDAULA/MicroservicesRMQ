@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hz75Uzb6lGa1/J4rpRFWt0xisRHZ3GEJ8enRzeOBN9GtXxCD7yiDT4QbK0WLJ8v0MTSPdkfm9usdl2pzvtzgYw==",
+  "dgSpecHash": "0q2LQEgyjmtWRw+jOHncw4r2SMGG0hTdSp3VgWqlgiOHaRQH22zee64L+yZoS0IF1DZo3/0rDUEsOfwzn3tKUA==",
   "success": true,
   "projectFilePath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMMicroRMQ.Infra.Bus\\AXIOMMicroRMQ.Infra.Bus.csproj",
   "expectedPackageFiles": [

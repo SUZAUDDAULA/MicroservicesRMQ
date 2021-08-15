@@ -32,7 +32,6 @@ namespace AXIOMRMQ.Banking.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMediatR(typeof(Startup));
             services.AddDbContext<BankingDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("BankingDbConnection"));

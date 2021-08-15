@@ -1371,6 +1371,31 @@
         "runtime": {
           "bin/placeholder/AXIOMRMQ.Banking.Domain.dll": {}
         }
+      },
+      "AXIOMRMQ.Transfer.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AXIOMRMQ.Transfer.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Data.dll": {}
+        }
+      },
+      "AXIOMRMQ.Transfer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Domain.dll": {}
+        }
       }
     }
   },
@@ -5182,6 +5207,16 @@
       "type": "project",
       "path": "../AXIOMRMQ.Banking.Domain/AXIOMRMQ.Banking.Domain.csproj",
       "msbuildProject": "../AXIOMRMQ.Banking.Domain/AXIOMRMQ.Banking.Domain.csproj"
+    },
+    "AXIOMRMQ.Transfer.Data/1.0.0": {
+      "type": "project",
+      "path": "../AXIOMRMQ.Transfer.Data/AXIOMRMQ.Transfer.Data.csproj",
+      "msbuildProject": "../AXIOMRMQ.Transfer.Data/AXIOMRMQ.Transfer.Data.csproj"
+    },
+    "AXIOMRMQ.Transfer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AXIOMRMQ.Transfer.Domain/AXIOMRMQ.Transfer.Domain.csproj",
+      "msbuildProject": "../AXIOMRMQ.Transfer.Domain/AXIOMRMQ.Transfer.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5191,6 +5226,7 @@
       "AXIOMRMQ.Banking.Application >= 1.0.0",
       "AXIOMRMQ.Banking.Data >= 1.0.0",
       "AXIOMRMQ.Banking.Domain >= 1.0.0",
+      "AXIOMRMQ.Transfer.Data >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
   },
@@ -5239,6 +5275,9 @@
             },
             "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj": {
               "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj"
+            },
+            "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Data\\AXIOMRMQ.Transfer.Data.csproj": {
+              "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Data\\AXIOMRMQ.Transfer.Data.csproj"
             }
           }
         }
@@ -5273,7 +5312,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
       }
     }
   }

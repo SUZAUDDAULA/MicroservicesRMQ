@@ -14,6 +14,7 @@
     <ProjectReference Include="..\AXIOMRMQ.Banking.Application\AXIOMRMQ.Banking.Application.csproj" />
     <ProjectReference Include="..\AXIOMRMQ.Banking.Data\AXIOMRMQ.Banking.Data.csproj" />
     <ProjectReference Include="..\AXIOMRMQ.Banking.Domain\AXIOMRMQ.Banking.Domain.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Transfer.Data\AXIOMRMQ.Transfer.Data.csproj" />
   </ItemGroup>
 
 </Project>

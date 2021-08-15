@@ -4,5 +4,21 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AXIOMRMQ.Infra.IoC\AXIOMRMQ.Infra.IoC.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Transfer.Data\AXIOMRMQ.Transfer.Data.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Transfer.Domain\AXIOMRMQ.Transfer.Domain.csproj" />
+  </ItemGroup>
+
 
 </Project>
