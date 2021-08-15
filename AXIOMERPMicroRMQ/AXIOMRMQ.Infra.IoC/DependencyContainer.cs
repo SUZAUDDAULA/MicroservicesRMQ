@@ -7,7 +7,11 @@ using AXIOMRMQ.Banking.Data.Repository;
 using AXIOMRMQ.Banking.Domain.CommandHandlers;
 using AXIOMRMQ.Banking.Domain.Commands;
 using AXIOMRMQ.Banking.Domain.Interfaces;
+using AXIOMRMQ.Transfer.Application.Interfaces;
+using AXIOMRMQ.Transfer.Application.Services;
 using AXIOMRMQ.Transfer.Data.Context;
+using AXIOMRMQ.Transfer.Data.Repository;
+using AXIOMRMQ.Transfer.Domain.Interfaces;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -28,9 +32,11 @@ namespace AXIOMRMQ.Infra.IoC
             
             //Application Services
             services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<ITransferService, TransferService>();
 
             //Data
             services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<ITransferRepository, TransferRepository>();
             services.AddTransient<BankingDbContext>();
 
             services.AddTransient<TransferDbContext>();

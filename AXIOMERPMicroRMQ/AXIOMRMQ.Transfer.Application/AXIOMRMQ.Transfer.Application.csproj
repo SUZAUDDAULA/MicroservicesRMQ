@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Models\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AXIOMMicroRMQ.Domain.Core\AXIOMMicroRMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\AXIOMRMQ.Transfer.Domain\AXIOMRMQ.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>

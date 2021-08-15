@@ -1372,6 +1372,20 @@
           "bin/placeholder/AXIOMRMQ.Banking.Domain.dll": {}
         }
       },
+      "AXIOMRMQ.Transfer.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AXIOMMicroRMQ.Domain.Core": "1.0.0",
+          "AXIOMRMQ.Transfer.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AXIOMRMQ.Transfer.Application.dll": {}
+        }
+      },
       "AXIOMRMQ.Transfer.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5208,6 +5222,11 @@
       "path": "../AXIOMRMQ.Banking.Domain/AXIOMRMQ.Banking.Domain.csproj",
       "msbuildProject": "../AXIOMRMQ.Banking.Domain/AXIOMRMQ.Banking.Domain.csproj"
     },
+    "AXIOMRMQ.Transfer.Application/1.0.0": {
+      "type": "project",
+      "path": "../AXIOMRMQ.Transfer.Application/AXIOMRMQ.Transfer.Application.csproj",
+      "msbuildProject": "../AXIOMRMQ.Transfer.Application/AXIOMRMQ.Transfer.Application.csproj"
+    },
     "AXIOMRMQ.Transfer.Data/1.0.0": {
       "type": "project",
       "path": "../AXIOMRMQ.Transfer.Data/AXIOMRMQ.Transfer.Data.csproj",
@@ -5226,6 +5245,7 @@
       "AXIOMRMQ.Banking.Application >= 1.0.0",
       "AXIOMRMQ.Banking.Data >= 1.0.0",
       "AXIOMRMQ.Banking.Domain >= 1.0.0",
+      "AXIOMRMQ.Transfer.Application >= 1.0.0",
       "AXIOMRMQ.Transfer.Data >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
@@ -5275,6 +5295,9 @@
             },
             "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj": {
               "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Banking.Domain\\AXIOMRMQ.Banking.Domain.csproj"
+            },
+            "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Application\\AXIOMRMQ.Transfer.Application.csproj": {
+              "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Application\\AXIOMRMQ.Transfer.Application.csproj"
             },
             "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Data\\AXIOMRMQ.Transfer.Data.csproj": {
               "projectPath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMRMQ.Transfer.Data\\AXIOMRMQ.Transfer.Data.csproj"
