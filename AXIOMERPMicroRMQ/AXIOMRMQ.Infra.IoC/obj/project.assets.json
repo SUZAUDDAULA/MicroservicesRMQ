@@ -1404,6 +1404,9 @@
       "AXIOMRMQ.Transfer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AXIOMMicroRMQ.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/AXIOMRMQ.Transfer.Domain.dll": {}
         },

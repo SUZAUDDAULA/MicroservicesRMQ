@@ -1,5 +1,8 @@
+using AXIOMMicroRMQ.Domain.Core.Bus;
 using AXIOMRMQ.Infra.IoC;
 using AXIOMRMQ.Transfer.Data.Context;
+using AXIOMRMQ.Transfer.Domain.EventHandlers;
+using AXIOMRMQ.Transfer.Domain.Events;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,12 +33,11 @@ namespace AXIOMRMQ.Transfer.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
             services.AddDbContext<TransferDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("TransferDbConnection"));
             });
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddSwaggerGen(c =>
             {
@@ -84,6 +86,14 @@ namespace AXIOMRMQ.Transfer.Api
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Transfer Microservice V1");
             });
+
+            ConfigureEventBus(app);
+        }
+
+        private void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<TransferCreatedEvent, TransferEventHandler>();
         }
     }
 }

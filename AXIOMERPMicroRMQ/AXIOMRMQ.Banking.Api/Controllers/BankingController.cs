@@ -22,7 +22,8 @@ namespace AXIOMRMQ.Banking.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Account>> GetAllAccount()
         {
-            return Ok(_accountService.GetAccounts());
+            var result = _accountService.GetAccounts();
+            return Ok(result);
         }
 
         [HttpPost]

@@ -11,6 +11,8 @@ using AXIOMRMQ.Transfer.Application.Interfaces;
 using AXIOMRMQ.Transfer.Application.Services;
 using AXIOMRMQ.Transfer.Data.Context;
 using AXIOMRMQ.Transfer.Data.Repository;
+using AXIOMRMQ.Transfer.Domain.EventHandlers;
+using AXIOMRMQ.Transfer.Domain.Events;
 using AXIOMRMQ.Transfer.Domain.Interfaces;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +29,9 @@ namespace AXIOMRMQ.Infra.IoC
             //Domain Bus
             services.AddTransient<IEventBus, AXIOMRMQBus>();
 
+            //Domain Events
+            services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();
+
             //Domain Banking Command
             services.AddTransient<IRequestHandler<CreateTransferCommand,bool>, TransferCommandHandler>();
             
@@ -37,9 +42,10 @@ namespace AXIOMRMQ.Infra.IoC
             //Data
             services.AddTransient<IAccountRepository, AccountRepository>();
             services.AddTransient<ITransferRepository, TransferRepository>();
+            services.AddTransient<TransferDbContext>();
             services.AddTransient<BankingDbContext>();
 
-            services.AddTransient<TransferDbContext>();
+            
         }
     }
 }
