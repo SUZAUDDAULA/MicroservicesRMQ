@@ -27,7 +27,14 @@ namespace AXIOMRMQ.Infra.IoC
         public static void RegisterServices(IServiceCollection services)
         {
             //Domain Bus
-            services.AddTransient<IEventBus, AXIOMRMQBus>();
+            services.AddSingleton<IEventBus, AXIOMRMQBus>(sp=>
+            {
+                var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
+                return new AXIOMRMQBus(sp.GetService<IMediator>(), scopeFactory);
+            });
+
+            //Subscriptions
+            services.AddTransient<TransferEventHandler>();
 
             //Domain Events
             services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();

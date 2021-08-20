@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0q2LQEgyjmtWRw+jOHncw4r2SMGG0hTdSp3VgWqlgiOHaRQH22zee64L+yZoS0IF1DZo3/0rDUEsOfwzn3tKUA==",
+  "dgSpecHash": "ZcqkYOpY23b1GYIaYNBccqIlS6MdspfGdD5TGxJgMXEZDlQBPvnxw9A3pdrZNH2nAi4q68HQq1q62hVgjV3rDQ==",
   "success": true,
   "projectFilePath": "D:\\Development\\WebPractice\\Microservices\\MicroservicesRMQ\\AXIOMERPMicroRMQ\\AXIOMMicroRMQ.Infra.Bus\\AXIOMMicroRMQ.Infra.Bus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suza\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Suza\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\Suza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Suza\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Suza\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Suza\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

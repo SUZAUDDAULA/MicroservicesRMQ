@@ -1321,6 +1321,7 @@
         "dependencies": {
           "AXIOMMicroRMQ.Domain.Core": "1.0.0",
           "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Newtonsoft.Json": "13.0.1",
           "RabbitMQ.Client": "6.2.2"
         },

@@ -16,5 +16,12 @@ namespace AXIOMRMQ.Transfer.Data.Repository
         {
             return _ctx.TransferLogs;
         }
+
+        public void Add(TransferLog transfer)
+        {
+            _ctx.Add(transfer);
+            _ctx.SaveChanges();
+        }
+
     }
 }
